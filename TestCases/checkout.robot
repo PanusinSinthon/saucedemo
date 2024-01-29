@@ -48,8 +48,13 @@ Setup keyword for checkout
     Input Password At Login Page        ${TEST_USER.password}
     Click "login" Button At Login Page
     Verify Is On Products Page
-    Add multiple items to cart
 
+    Add multiple items to cart
+    
+		Sum item price to item_total     ${item1}[2]
+    Sum item price to item_total     ${item2}[2]
+    Sum item price to item_total     ${item3}[2]
+    
     Calculate Tax Percentage and Total that include tax
 
     Click At "cart" Icon To Go To Cart Page    
@@ -68,10 +73,6 @@ Add multiple items to cart
     ${item3}    Get Item Info Of A Selecting Item On Products Page       3
     Click "add to cart" button of selecting item on products page        3
     Set Test Variable        ${item3}
-    
-    Sum item price to item_total     ${item1}[2]
-    Sum item price to item_total     ${item2}[2]
-    Sum item price to item_total     ${item3}[2]
         
 Sum item price to item_total
     [Documentation]        given price will be inform of $xx.xx, so we need to split the '$' then
