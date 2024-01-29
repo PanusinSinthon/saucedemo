@@ -50,6 +50,12 @@ Setup keyword for checkout
     Verify Is On Products Page
     Add multiple items to cart
 
+    Calculate Tax Percentage and Total that include tax
+
+    Click At "cart" Icon To Go To Cart Page    
+    Click "Checkout" Button To Go To Shipping Information    
+
+
 Add multiple items to cart
     ${item1}    Get Item Info Of A Selecting Item On Products Page       1
     Click "add to cart" button of selecting item on products page        1
@@ -66,12 +72,6 @@ Add multiple items to cart
     Sum item price to item_total     ${item1}[2]
     Sum item price to item_total     ${item2}[2]
     Sum item price to item_total     ${item3}[2]
-
-    Calculate Tax Percentage and Total that include tax
-
-    Click At "cart" Icon To Go To Cart Page    
-    Click "Checkout" Button To Go To Shipping Information    
-
         
 Sum item price to item_total
     [Documentation]        given price will be inform of $xx.xx, so we need to split the '$' then
