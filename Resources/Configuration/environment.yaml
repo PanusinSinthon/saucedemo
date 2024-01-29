@@ -1,0 +1,13 @@
+ENVIRONMENT:
+  DEV:
+  STAGING:
+    URL: https://www.saucedemo.com/
+    #defind how long keyword will wait until success
+    ACCEPTANCE_TIMEOUT: 3s
+  PROD:
+    URL: https://www.saucedemo.com/
+    ACCEPTANCE_TIMEOUT: 3s
+
+
+
+

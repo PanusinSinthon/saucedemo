@@ -1,0 +1,14 @@
+checkout_page:
+  your_information:
+    title: "Checkout: Your Information"
+  overview:
+    title: "Checkout: Overview"
+    summary:
+      sub_total: "Item total: "
+      tax: "Tax: "
+      total: "Total: "
+  complete:
+    title: "Checkout: Complete!"
+    header: "Thank you for your order!"
+    text: "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+

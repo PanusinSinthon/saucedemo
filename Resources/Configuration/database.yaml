@@ -1,0 +1,29 @@
+DATABASE_CONFIG:
+  STAGING:
+    HOST: example
+    MODULE: pymysql
+    PORT: 3306
+    USERNAME: example
+    PASSWORD: example
+  PRODUCTION:
+
+DATABASE_TABLES:
+    CUSTOMER:
+      NAME: customer
+      FIELDS:
+        ID: id
+        CUSTOMER_CODE: customer_code
+        FIRST_NAME: first_name
+        LAST_NAME: last_name
+        CREATE_AT: creat_at
+    ITEMS_ORDER:
+      NAME: item_order
+      FIELDS:
+    CART:
+      NAME: cart
+      FIELDS:
+    SHIPPING_INFO:
+      NAME: shipping_info
+      FIELDS:
+
+

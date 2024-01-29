@@ -1,0 +1,7 @@
+test_config:
+  tax_percentage: 0.08
+  shipping_option:
+    pony_express:
+      name: "Free Pony Express Delivery!"
+    panusin_express:
+      name: "Panusin Express Fastest Delivery Ever!"

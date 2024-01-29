@@ -1,0 +1,23 @@
+user_data:
+  standard:
+    username: standard_user
+    password: secret_sauce
+    incorrect_password: panusin_sinthon
+    personal_info:
+      first_name: panusin
+      last_name: sinthon
+      postal_code:
+        correct: 41130
+        fail: NOT123@#$
+    payment:
+      scb: "scb payment #15123 ***** 14512"
+      sauce_card: "SauceCard #31337"
+
+  problem:
+    username: problem_user
+    password: secret_sauce
+    incorrect_password: panusin_sinthon
+    personal_info:
+      first_name: undefined
+      last_name: undefined
+      postal_code: undefined

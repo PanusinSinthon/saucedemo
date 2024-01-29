@@ -1,0 +1,4 @@
+error:
+  login:
+    empty_username: "Epic sadface: Username is required"
+    incorrect_password: "Epic sadface: Username and password do not match any user in this service"
