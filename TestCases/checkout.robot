@@ -51,7 +51,7 @@ Setup keyword for checkout
 
     Add multiple items to cart
     
-		Sum item price to item_total     ${item1}[2]
+    Sum item price to item_total     ${item1}[2]
     Sum item price to item_total     ${item2}[2]
     Sum item price to item_total     ${item3}[2]
     
